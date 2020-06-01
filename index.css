@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.first{
+    background-color: #fafafe;
+    text-align: center;
+}
+
+h2{
+    padding-top: 50px;
+    padding-bottom: 5px;
+    font-weight: 800;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.steps{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding-top: 30px;
+}
+.collabo{
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(12,0,46,0.1);
+    text-align: left;
+    border-radius: 15px;
+}
+.collabo:hover{
+    background-color: #5f2eed;
+}
+.sidepic img{
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    
+}
+.second{
+    background-color: #eaeeff;
+    text-align: center;
+    width: 100%;
+}
+.leftpic img{
+    height: auto;
+    width: auto;
+    display: inline-block;
+    max-width: 100%;
+    padding: 20px;
+}
+/*.everything{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;*/
+
+.icons{
+    box-shadow: 0 4px 8px 0 rgba(12,0,46,0.1);
+    padding: 20px;
+    margin: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+.icons img{
+    align-items: center;
+}
+@media only screen and
+(min-device-width:768px){
+    .leftpic img{
+    float: left;
+    height: auto;
+    width: auto;
+    max-width: 40%;
+    padding: 30px;
+    margin-left: -150px;
+    }
+    .everything{
+        display: grid;
+        grid-template-columns: 150px 150px 150px;
+        grid-template-rows: auto auto; 
+        padding-top: 35px;
+    }
+    .icons{
+        padding-top: 15px;
+        padding-bottom: 10px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 20px;
+        margin-top: 25px;
+        margin-left: -25px;
+    }
+    .steps{
+        padding-top: 30px;
+
+    }
+    .collabo{
+        max-width: 70%;
+        margin-left: 50px;
+    }
+    .sidepic img{
+        max-width: 50%;
+    }
+    
+}
+@media only screen and
+(min-device-width:1024px){
+    .leftpic img{
+        float: left;
+        height: auto;
+        width: auto;
+        max-width: 40%;
+        padding: 30px;
+        margin-left: -180px;
+        }
+        .everything{
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            grid-template-rows: auto auto; 
+            padding-top: 50px;
+        }
+        .icons{
+            padding-top: 15px;
+            padding-bottom: 20px;
+            padding-left: 0;
+            padding-right: 0;
+            margin-bottom: 50px;
+            margin-top: 30px;
+            margin-left: 5px;
+        }
+        .steps{
+            padding-top: 30px;
+    
+        }
+        .collabo{
+            max-width: 60%;
+            margin-left: 50px;
+           
+        }
+        .sidepic img{
+          max-width: 45%;  
+          float: right;
+          padding: 20px;
+          margin-top: 40px;
+          margin-left: 20px;
+          width: auto;
+          height: auto;
+        }
+}
+@media only screen and
+(min-device-width:1440px){
+    .sidepic img{
+        max-width: 40%;
+    }
+    .icons{
+        box-shadow: 0 4px 8px 0 rgba(12,0,46,0.1);
+        padding: 30px;
+        margin: 30px;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 60px;
+    }
+    .leftpic img{
+        margin-left: 60px;
+    }
+    .integration h2 {
+        font-weight: 900;
+        font-size: 30px;
+    }
+}
